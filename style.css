@@ -1,0 +1,104 @@
+
+
+body {
+    
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(rgb(4, 4, 39),rgb(128, 24, 41),rgb(2, 2, 14));
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#color {
+    background-color: plum;
+}
+
+#bff {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+
+#bday-age {
+    background: #efb0c9;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#bday-date {
+    background: #efb0c9;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-section {
+    margin-top: 50px;
+}
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#cheers {
+    height: auto;
+    width: 700px;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(/amy-shamblen-M-dLdqCVfAY-unsplash.jpg);
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url(/giphy.gif);
+}
+
+#gift-img-hot:hover {
+    background-image: url(/200w.webp);
+}
+
+#gift-img-gen:hover {
+    background-image: url(/ge.webp);
+}
+
+#gift-img-kg:hover {
+    background-image: url(/kg.webp);
+}
+
+#gift-img-ch:hover {
+    background-image: url(/cheers.webp);
+}
+
+#footer {
+    width: 10px;
+    margin: 40px auto 20px;
+}
+
+a {
+    font-style: italic;
+    color: rgb(238, 201, 106);
+    font-weight: bolder;
+}
